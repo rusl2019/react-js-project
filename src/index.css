@@ -1,0 +1,12 @@
+.bg-dark::placeholder {
+  color: #6c757d !important;
+  opacity: 1 !important;
+}
+
+.bg-dark:-ms-input-placeholder {
+  color: #6c757d !important;
+}
+
+.bg-dark::-ms-input-placeholder {
+  color: #6c757d !important;
+}
