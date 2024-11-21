@@ -10,3 +10,26 @@
 .bg-dark::-ms-input-placeholder {
   color: #6c757d !important;
 }
+
+.image-container {
+  position: relative;
+  overflow: hidden; /* Menambahkan overflow untuk menyembunyikan bagian gambar yang keluar */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 60%; /* Atur posisi vertikal */
+  left: 10%; /* Ubah posisi horizontal menjadi mentok ke kanan */
+  transform: translateY(-50%); /* Pusatkan teks secara vertikal */
+  color: white; /* Atur warna teks */
+  font-size: 20px; /* Atur ukuran font */
+  text-shadow: 1px 1px 2px black; /* Menambahkan bayangan teks untuk meningkatkan keterbacaan */
+  width: 80%;
+}
+
+.text-truncate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%; /* Atur sesuai kebutuhan */
+}
